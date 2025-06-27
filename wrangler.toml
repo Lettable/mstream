@@ -2,3 +2,6 @@ name = "mstream"
 main = "./.output/server/index.mjs"
 workers_dev = true
 compatibility_date = "2022-09-10"
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
